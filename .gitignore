@@ -34,3 +34,5 @@
 # Directorios
 /Debug
 /Release
+
+CMakeLists.txt.user

@@ -6,9 +6,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(algoritmos SHARED
-  algoritmos_global.h
+  algoritmos_global.hpp
   algoritmos.cpp
-  algoritmos.h
+  algoritmos.hpp
 )
 
 target_compile_definitions(algoritmos PRIVATE LIBALGORITMOS_LIBRARY)
